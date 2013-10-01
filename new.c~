@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void main (int argc, char* argv[]){
+  printf("%s\n", argv[0]);
+	 printf( "%s\n", argv[1]);
+  int n = 17;
+  int* np = &n;
+  *np = 19;
+  printf( "%d\n", n );
+  printf("%d\n", *np);
+
+}

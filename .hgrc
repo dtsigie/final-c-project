@@ -1,0 +1,12 @@
+[ui]
+username = Dawit Tsigie <dtsigie16@cornellcollege.edu>
+editor = /usr/bin/emacs
+
+[merge-tools]
+kdiff3.executable = usr/bin/kdiff3
+kdiff3.args = $base $local $other -o $output
+kdiff3.priority = 1
+
+[trusted]
+users = +
+groups = +

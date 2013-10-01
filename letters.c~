@@ -1,0 +1,9 @@
+#include <stdio.h>
+void main ( int argc, char** argv){
+  char letter;
+  while ( scanf ("%c", letter) != EOF ) {
+    if ( 'a'<= letter && letter <= 'Z' ) {
+      printf ("%c" , letter) ;
+    }
+  }
+}
